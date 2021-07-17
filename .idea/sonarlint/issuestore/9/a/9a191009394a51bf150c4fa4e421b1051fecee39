@@ -1,0 +1,18 @@
+
+g Web:TableHeaderHasIdOrScopeCheck"";Add either an 'id' or a 'scope' attribute to this <th> tag.(ùèşÁ
+>	Web:S1827#")Remove this deprecated "width" attribute.(ºÕ¨§
+l Web:TableHeaderHasIdOrScopeCheck&";Add either an 'id' or a 'scope' attribute to this <th> tag.(÷¯Äİşÿÿÿÿ
+I	Web:S1827 "/Remove this deprecated "cellpadding" attribute.(×ìëúÿÿÿÿ
+g Web:TableHeaderHasIdOrScopeCheck#";Add either an 'id' or a 'scope' attribute to this <th> tag.(ºÕ¨§
+C	Web:S1827(")Remove this deprecated "width" attribute.(Ë­Üøÿÿÿÿ
+I	Web:S1827 "/Remove this deprecated "cellspacing" attribute.(×ìëúÿÿÿÿ
+l Web:TableHeaderHasIdOrScopeCheck$";Add either an 'id' or a 'scope' attribute to this <th> tag.(æ·ŸÓûÿÿÿÿ
+>	Web:S1827'")Remove this deprecated "width" attribute.(«†¨Ô
+l Web:TableHeaderHasIdOrScopeCheck(";Add either an 'id' or a 'scope' attribute to this <th> tag.(Ë­Üøÿÿÿÿ
+g Web:TableHeaderHasIdOrScopeCheck'";Add either an 'id' or a 'scope' attribute to this <th> tag.(«†¨Ô
+MWeb:TableWithoutCaptionCheck " Add a description to this table.(×ìëúÿÿÿÿ
+C	Web:S1827%")Remove this deprecated "width" attribute.(³¥§ªÿÿÿÿÿ
+C	Web:S1827$")Remove this deprecated "width" attribute.(æ·ŸÓûÿÿÿÿ
+C	Web:S1827&")Remove this deprecated "width" attribute.(÷¯Äİşÿÿÿÿ
+>	Web:S1827"")Remove this deprecated "width" attribute.(ùèşÁ
+l Web:TableHeaderHasIdOrScopeCheck%";Add either an 'id' or a 'scope' attribute to this <th> tag.(³¥§ªÿÿÿÿÿ

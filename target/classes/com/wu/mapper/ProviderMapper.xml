@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wu.mapper.ProviderMapper">
+
+    <select id="getProviderList" resultType="Provider">
+        select * from smbms_provider
+        <where>
+            <if test="proName != null and proName.length>0">
+                and proName like concat('%',#{proName},'%')
+            </if>
+            <if test="proCode != null and proCode.length>0">
+                and proCode like concat('%',#{proCode},'%')
+            </if>
+        </where>
+    </select>
+
+
+    <select id="getProviderById" resultType="Provider">
+        select * from smbms_provider where id= #{id}
+    </select>
+
+    <update id="modifyProviderById" parameterType="Provider">
+        update smbms_provider
+        <set>
+            <if test="provider.proName!=null  and provider.proName.length>0">
+                proName=#{provider.proName},
+            </if>
+            <if test="provider.proDesc!=null and provider.proDesc.length>0">
+                proDesc=#{provider.proDesc},
+            </if>
+            <if test="provider.proContact!=null and  provider.proContact.length>0">
+                proContact=#{provider.proContact},
+            </if>
+            <if test="provider.proPhone!=null and  provider.proPhone.length>0">
+                proPhone=#{provider.proPhone},
+            </if>
+            <if test="provider.proAddress!=null and provider.proAddress.length>0">
+                proAddress=#{provider.proAddress},
+            </if>
+            <if test="provider.proFax!=null and provider.proFax.length>0">
+                proFax=#{provider.proFax},
+            </if>
+            <if test="provider.modifyBy>0">
+                modifyBy=#{provider.modifyBy},
+            </if>
+            <if test="provider.modifyDate!=null">
+                modifyDate=#{provider.modifyDate},
+            </if>
+        </set>
+        where
+        id = #{provider.id}
+    </update>
+
+    <delete id="deleteProviderById">
+        delete from smbms_provider where id=#{id}
+    </delete>
+
+    <insert id="addProvider" parameterType="Provider">
+        insert into smbms_provider (
+            proCode,
+            proName,
+            proDesc,
+            proContact,
+            proPhone,
+            proAddress,
+            proFax,
+            createdBy,
+            creationDate)
+        values(
+            #{proCode},
+            #{proName},
+            #{proDesc},
+            #{proContact},
+            #{proPhone},
+            #{proAddress},
+            #{proFax},
+            #{createdBy},
+            #{creationDate}
+        )
+    </insert>
+
+</mapper>

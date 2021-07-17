@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wu.mapper.UserMapper">
+
+    <select id="getLoginUser" resultType="User">
+        select
+           id,
+           userCode,
+           userName,
+           userPassword,
+           gender,
+           date_format(birthday, '%Y-%m-%d') birthday,
+           phone,
+           address,
+           userRole,
+           createdBy,
+           creationDate,
+           modifyBy,
+           modifyDate
+        from smbms_user
+        where userCode = #{userCode} and userpassword  = #{userPassword}
+    </select>
+
+    <update id="updatePwd">
+        update smbms_user set userPassword=#{userPassword} where id =#{id}
+    </update>
+
+    <select id="getUserCount" resultType="_int">
+        select count(1) as count from smbms_user u,smbms_role r
+        <where>
+            <if test="'1'=='1'">
+                and u.userRole = r.id
+            </if>
+            <if test="userName != null and userName.length>0">
+                and u.userName like concat('%',#{userName},'%')
+            </if>
+            <if test="userRole > 0">
+                and u.userRole = #{userRole}
+            </if>
+        </where>
+    </select>
+
+    <select id="getUserList" resultType="User">
+        select u.id,
+        u.userCode,
+        u.userName,
+        u.userPassword,
+        u.gender,
+        date_format(u.birthday, '%Y-%m-%d') birthday,
+        u.phone,
+        u.address,
+        u.userRole,
+        u.createdBy,
+        u.creationDate,
+        u.modifyBy,
+        u.modifyDate,
+        r.roleName as userRoleName
+        from smbms_user u,
+        smbms_role r
+        <where>
+            <if test="'1'=='1'">
+                and u.userRole = r.id
+            </if>
+            <if test="userName != null and userName.length>0">
+                and u.userName like concat('%',#{userName},'%')
+            </if>
+            <if test="userRole > 0">
+                and u.userRole = #{userRole}
+            </if>
+
+        </where>
+        order by creationDate DESC limit #{currentPageNo},#{pageSize}
+    </select>
+
+    <select id="getUserById" resultType="User">
+       select * from smbms_user where id = #{id}
+    </select>
+
+    <update id="modifyUserByID">
+        update smbms_user set
+            userName=#{userName},
+            gender=#{gender},
+            birthday = #{birthday},
+            phone=#{phone},
+            address=#{address},
+            userRole=#{userRole},
+            modifyBy=#{modifyBy},
+            modifyDate=#{modifyDate}
+        where id = #{id}
+    </update>
+
+
+    <delete id="deleteUserByID">
+        delete from smbms_user where id=#{id}
+    </delete>
+
+    <select id="selectUserCodeExist" resultType="_int">
+        select count(1) from smbms_user where userCode=#{userCode}
+    </select>
+
+    <insert id="addUser" parameterType="User">
+        insert smbms_user (
+            userCode,
+            userName,
+            userPassword,
+            userRole,
+            gender,
+            birthday,
+            phone,
+            address,
+            creationDate,
+            createdBy)
+        VALUES(
+             #{userCode},
+             #{userName},
+             #{userPassword},
+             #{userRole},
+             #{gender},
+             #{birthday},
+             #{phone},
+             #{address},
+             #{creationDate},
+             #{createdBy}
+        )
+    </insert>
+
+</mapper>

@@ -1,0 +1,16 @@
+
+m
+java:S1192 "JDefine a constant instead of duplicating this literal "delResult" 3 times.(ÁˆâÍûÿÿÿÿ8—­¾Ñó.
+l
+java:S1192·"IDefine a constant instead of duplicating this literal "userCode" 3 times.(òûÉ®üÿÿÿÿ8Ç‚ƒìó.
+d
+java:S3252¨"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ8Æ‚ÀÑó.
+M
+java:S3740"/Provide the parametrized type for this generic.(É²ÍÑ8Š¸½Ñó.
+|
+java:S2293µ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÑ…¢úÿÿÿÿ8Ç‚ƒìó.
+V	java:S106‡"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8ØÜ»Ğó.
+d
+java:S3252Á"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ8Ç‚ƒìó.
+“
+java:S1130{"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.( ¹©øÿÿÿÿ8ª¼ğìó.

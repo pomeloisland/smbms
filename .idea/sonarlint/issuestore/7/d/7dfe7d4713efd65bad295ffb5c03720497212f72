@@ -1,0 +1,25 @@
+
+T
+java:S1874_"2Remove this use of "ROUND_DOWN"; it is deprecated.(æ Ğùÿÿÿÿ8ş˜Ìïó.
+l	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—­¨8©Èšëó.
+{
+java:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÑ…¢úÿÿÿÿ8Ñïñïó.
+M
+java:S1874"0Remove this use of "setScale"; it is deprecated.(îÉËø8‰êÆğó.
+U
+java:S1874€"2Remove this use of "ROUND_DOWN"; it is deprecated.(æ Ğùÿÿÿÿ8¡ôÇğó.
+M
+java:S1874^"0Remove this use of "setScale"; it is deprecated.(îÉËø8ş˜Ìïó.
+c
+java:S3252z"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ8Ú•õïó.
+O
+java:S1874^"2Remove this use of "ROUND_DOWN"; it is deprecated.(îÉËø8ş˜Ìïó.
+S
+java:S1874€"0Remove this use of "setScale"; it is deprecated.(æ Ğùÿÿÿÿ8¡ôÇğó.
+O
+java:S1874"2Remove this use of "ROUND_DOWN"; it is deprecated.(îÉËø8‰êÆğó.
+g
+java:S1192s"JDefine a constant instead of duplicating this literal "delResult" 3 times.(ÊÑÕ8®ôïó.
+l	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÅ­8¬ğ™ëó.
+R
+java:S1874_"0Remove this use of "setScale"; it is deprecated.(æ Ğùÿÿÿÿ8ş˜Ìïó.

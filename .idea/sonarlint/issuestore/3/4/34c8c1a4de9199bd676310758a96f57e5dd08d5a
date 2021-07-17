@@ -1,0 +1,101 @@
+
+\
+java:S11921"FDefine a constant instead of duplicating this literal "36.23" 4 times.(ó†­Å
+]
+java:S11921"GDefine a constant instead of duplicating this literal "23.369" 4 times.(ó†­Å
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(î‰æ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü®Šù
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü®Šù
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü®Šù
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü®Šù
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‰æ
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(î‰æ
+F
+java:S1874"0Remove this use of "setScale"; it is deprecated.(¬âæŠ
+K
+java:S1874"0Remove this use of "setScale"; it is deprecated.(‹›ŠÖşÿÿÿÿ
+F
+java:S1874!"0Remove this use of "setScale"; it is deprecated.(£É¢î
+K
+java:S1874#"0Remove this use of "setScale"; it is deprecated.(–òªÚÿÿÿÿÿ
+K
+java:S1874%"0Remove this use of "setScale"; it is deprecated.(öÇè§úÿÿÿÿ
+I
+java:S1874'".Remove this use of "divide"; it is deprecated.(ïê›Àùÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ûÁä
+H
+java:S18740"2Remove this use of "ROUND_DOWN"; it is deprecated.(ûÁä
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ó†­Å
+H
+java:S18741"2Remove this use of "ROUND_DOWN"; it is deprecated.(ó†­Å
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ÁÕ…Å
+H
+java:S18742"2Remove this use of "ROUND_DOWN"; it is deprecated.(ÁÕ…Å
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(ÌöïÃşÿÿÿÿ
+M
+java:S18743"2Remove this use of "ROUND_DOWN"; it is deprecated.(ÌöïÃşÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(¡†®õùÿÿÿÿ
+<
+java:S21114"!Use "BigDecimal.valueOf" instead.(¡†®õùÿÿÿÿ
+<
+java:S21114"!Use "BigDecimal.valueOf" instead.(¡†®õùÿÿÿÿ
+M
+java:S18744"2Remove this use of "ROUND_DOWN"; it is deprecated.(¡†®õùÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ÕµÒÏúÿÿÿÿ
+M
+java:S18747"2Remove this use of "ROUND_DOWN"; it is deprecated.(ÕµÒÏúÿÿÿÿ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(ß‹øÄ
+H
+java:S18748"2Remove this use of "ROUND_DOWN"; it is deprecated.(ß‹øÄ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(½»øÑ
+H
+java:S18749"2Remove this use of "ROUND_DOWN"; it is deprecated.(½»øÑ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(É“¡
+H
+java:S1874:"2Remove this use of "ROUND_DOWN"; it is deprecated.(É“¡
+M	java:S106;"9Replace this use of System.out or System.err by a logger.(Æ‚Æ=
+6
+java:S2111;"!Use "BigDecimal.valueOf" instead.(Æ‚Æ=
+6
+java:S2111;"!Use "BigDecimal.valueOf" instead.(Æ‚Æ=
+G
+java:S1874;"2Remove this use of "ROUND_DOWN"; it is deprecated.(Æ‚Æ=
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(ã£×
+H
+java:S1874>"2Remove this use of "ROUND_DOWN"; it is deprecated.(ã£×
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(•°›øÿÿÿÿ
+M
+java:S1874?"2Remove this use of "ROUND_DOWN"; it is deprecated.(•°›øÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(æ™÷ıÿÿÿÿ
+M
+java:S1874@"2Remove this use of "ROUND_DOWN"; it is deprecated.(æ™÷ıÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(öüÌ¨ûÿÿÿÿ
+M
+java:S1874A"2Remove this use of "ROUND_DOWN"; it is deprecated.(öüÌ¨ûÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(çú¨Çÿÿÿÿÿ
+<
+java:S2111B"!Use "BigDecimal.valueOf" instead.(çú¨Çÿÿÿÿÿ
+<
+java:S2111B"!Use "BigDecimal.valueOf" instead.(çú¨Çÿÿÿÿÿ
+M
+java:S1874B"2Remove this use of "ROUND_DOWN"; it is deprecated.(çú¨Çÿÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(­½§ò
+H
+java:S1874E"2Remove this use of "ROUND_DOWN"; it is deprecated.(­½§ò
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(ò–¤Óûÿÿÿÿ
+M
+java:S1874F"2Remove this use of "ROUND_DOWN"; it is deprecated.(ò–¤Óûÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(Êã–ûÿÿÿÿ
+M
+java:S1874G"2Remove this use of "ROUND_DOWN"; it is deprecated.(Êã–ûÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(¤ÙÅ°
+H
+java:S1874H"2Remove this use of "ROUND_DOWN"; it is deprecated.(¤ÙÅ°
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(…’Şùÿÿÿÿ
+<
+java:S2111I"!Use "BigDecimal.valueOf" instead.(…’Şùÿÿÿÿ
+<
+java:S2111I"!Use "BigDecimal.valueOf" instead.(…’Şùÿÿÿÿ
+M
+java:S1874I"2Remove this use of "ROUND_DOWN"; it is deprecated.(…’Şùÿÿÿÿ
