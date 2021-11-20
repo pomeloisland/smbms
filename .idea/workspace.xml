@@ -9,13 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41e741f8-fcef-4f17-a9fc-f7a3ca2f2f2c" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b60c4765-424b-4474-b731-4418e2daf927.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b60c4765-424b-4474-b731-4418e2daf927.xml" afterDir="false" />
+    <list default="true" id="41e741f8-fcef-4f17-a9fc-f7a3ca2f2f2c" name="Default Changelist" comment="修改用户查询">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/useradd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/useradd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wu/controller/UserManagementControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wu/controller/UserManagementControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smbms-mvc/WEB-INF/classes/com/wu/controller/UserManagementControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/smbms-mvc/WEB-INF/classes/com/wu/controller/UserManagementControler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +227,7 @@
       <workItem from="1634111033418" duration="152000" />
       <workItem from="1635082930054" duration="112000" />
       <workItem from="1635907166498" duration="160000" />
-      <workItem from="1637399008497" duration="685000" />
+      <workItem from="1637399008497" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1626509172868</created>
@@ -239,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626509172868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改用户查询">
+      <created>1637399778237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637399778237</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改用户查询">
+      <created>1637400002846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637400002846</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +270,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="修改用户查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改用户查询" />
   </component>
 </project>
