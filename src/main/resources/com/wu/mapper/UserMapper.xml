@@ -76,7 +76,21 @@
     </select>
 
     <select id="getUserById" resultType="User">
-       select * from smbms_user where id = #{id}
+       select u.userCode,
+              u.userName,
+              u.userPassword,
+              u.gender,
+              date_format(u.birthday, '%Y-%m-%d') birthday,
+              u.phone,
+              u.address,
+              u.userRole,
+              u.createdBy,
+              u.creationDate,
+              u.modifyBy,
+              u.modifyDate,
+              r.roleName as userRoleName
+       from smbms_user u,
+            smbms_role r where u.id = #{id} and u.userRole = r.id
     </select>
 
     <update id="modifyUserByID">
