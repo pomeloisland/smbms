@@ -166,7 +166,10 @@ public class UserManagementControler {
 
 
     @RequestMapping("/adduser")
-    public String toAddUserPage() {
+    public String toAddUserPage(Model model) {
+        List<Role> roleList = null;
+        roleList = roleService.getRoleList();
+        model.addAttribute("roleList", roleList);
         return "WEB-INF/jsp/useradd";
     }
 
